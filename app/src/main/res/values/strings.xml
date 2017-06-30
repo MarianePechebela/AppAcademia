@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProjetoAcademia</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string-array name="objetivos_aluno">
+        <item>Hipertrofia</item>
+        <item>Emagrecimento</item>
+        <item>Definição</item>
+    </string-array>
+    <string-array name="sexo_aluno">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+
+</resources>

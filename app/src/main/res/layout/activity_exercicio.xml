@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="15dp">
+
+    <TextView
+        android:id="@+id/tvCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="15dp"
+        android:text="CADASTRAR EXERCÍCIO" />
+
+    <EditText
+        android:id="@+id/etNomeExercicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvCadastrar"
+        android:layout_below="@+id/tvCadastrar"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Nome do Exercício"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etSeries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etNomeExercicio"
+        android:layout_below="@+id/etNomeExercicio"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Series"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etRepeticoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etSeries"
+        android:layout_below="@+id/etSeries"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Repeticoes"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etIntervalo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etRepeticoes"
+        android:layout_below="@+id/etRepeticoes"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Intervalo entre series"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCadastrarExercicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etIntervalo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:text="Cadastrar" />
+</RelativeLayout>
